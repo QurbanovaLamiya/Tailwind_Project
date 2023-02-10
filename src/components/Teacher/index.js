@@ -1,7 +1,7 @@
 
 const Teacher = () => {
   return (
-    <div className="section">
+    <div className="section" id="teacher">
       Teacher
     </div>
   )
