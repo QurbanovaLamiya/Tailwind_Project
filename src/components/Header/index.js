@@ -7,7 +7,7 @@ import NavLink from "../NavLink";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <header className="fixed w-full top-0 left-0 z-20">
+    <header className="bg-Solitude fixed w-full top-0 left-0 z-20">
       <div className="container mx-auto flex items-center justify-between py-4 px-2">
         <div className="flex items-center gap-4">
           <HiMenuAlt1
