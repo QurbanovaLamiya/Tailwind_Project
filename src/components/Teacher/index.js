@@ -1,8 +1,8 @@
 
 const Teacher = () => {
   return (
-    <div>
-      
+    <div className="section">
+      Teacher
     </div>
   )
 }
