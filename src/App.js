@@ -1,9 +1,5 @@
-const App = () => {
-  return (
-    <div>
-      <h1>Tailwind CSS</h1>
-    </div>
-  );
-};
+import RootPage from "./components";
+
+const App = () => <RootPage />;
 
 export default App;

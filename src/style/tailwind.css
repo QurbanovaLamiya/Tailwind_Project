@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: Poppins;
+    background: #e9e9ea;
+  }
+  img {
+    @apply w-full;
+  }
+
+  .section {
+    @apply container mx-auto py-24 px-6;
+  }
+}
