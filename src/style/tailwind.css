@@ -17,4 +17,9 @@
   .section {
     @apply container mx-auto py-24 px-6 min-h-screen;
   }
+
+  .animate-slide:hover {
+    cursor: pointer;
+    animation-play-state: paused;
+  }
 }

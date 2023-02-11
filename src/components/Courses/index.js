@@ -1,5 +1,6 @@
 import { categories } from "../../constant/Categories";
 import Categories from "./Categories";
+import PopularCourse from "./PopularCourse";
 const Courses = () => {
   return (
     <section className="section" id="courses">
@@ -20,6 +21,7 @@ const Courses = () => {
           <Categories key={category.id} {...category} />
         ))}
       </div>
+      <PopularCourse />
     </section>
   );
 };
