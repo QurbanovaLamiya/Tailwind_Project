@@ -1,6 +1,5 @@
 import heroImg from "../../image/hero.png";
-import { logos } from "../../constant/Logos";
-import HomeLogos from "../HomeLogos";
+import HomeLogos from "./HomeLogos";
 
 const Home = () => {
   return (
@@ -30,19 +29,7 @@ const Home = () => {
           <img src={heroImg} alt="hero" />
         </div>
       </div>
-      <div>
-        <p className="text-center text-xl">
-          We collaborate with
-          <span className="text-Teal">
-            100+ leading universities and companies
-          </span>
-        </p>
-        <div className="flex flex-wrap items-center justify-center gap-8 p-2">
-          {logos.map((logo, index) => (
-            <HomeLogos key={index} logo={logo} />
-          ))}
-        </div>
-      </div>
+      <HomeLogos />
     </div>
   );
 };
