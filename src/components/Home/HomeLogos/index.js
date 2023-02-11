@@ -4,7 +4,7 @@ const HomeLogos = () => {
   return (
     <div>
       <p className="text-center text-xl">
-        We collaborate with
+        We collaborate with {" "}
         <span className="text-Teal">
           100+ leading universities and companies
         </span>

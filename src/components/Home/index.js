@@ -3,7 +3,7 @@ import HomeLogos from "./HomeLogos";
 
 const Home = () => {
   return (
-    <div className="section" id="home">
+    <section className="section" id="home">
       <div className="md:flex items-center justify-center">
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </div>
       <HomeLogos />
-    </div>
+    </section>
   );
 };
 
