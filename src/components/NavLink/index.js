@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import PropTypes from "prop-types";
 
 const NavLink = ({ href, link }) => {
   return (
@@ -15,6 +16,11 @@ const NavLink = ({ href, link }) => {
       </Link>
     </li>
   );
+};
+
+NavLink.propTypes = {
+  href: PropTypes.string,
+  link: PropTypes.string,
 };
 
 export default NavLink;

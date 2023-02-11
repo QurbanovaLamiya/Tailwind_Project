@@ -1,4 +1,5 @@
 import { AiOutlineUser, AiOutlineStar } from "react-icons/ai";
+import PropTypes from "prop-types";
 
 const CourseItems = ({
   category,
@@ -30,6 +31,15 @@ const CourseItems = ({
       </div>
     </div>
   );
+};
+
+CourseItems.propTypes = {
+  category: PropTypes.string,
+  image: PropTypes.string,
+  title: PropTypes.string,
+  participants: PropTypes.number,
+  price: PropTypes.number,
+  rating: PropTypes.number,
 };
 
 export default CourseItems;

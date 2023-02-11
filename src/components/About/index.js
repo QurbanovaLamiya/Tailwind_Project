@@ -9,8 +9,8 @@ const About = () => {
         </div>
         <div>
           <h2 className="font-bold text-[1.5rem] sm:text-[1.875rem] mb-5">
-            We provide the <br /> best {" "}
-            <span className="text-Teal">online courses</span>
+            We provide the <br /> best
+            <span className="text-Teal">{" "} online courses</span>
           </h2>
           <p className="text-sm text-gray leading-7 mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

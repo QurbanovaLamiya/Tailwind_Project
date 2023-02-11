@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
+import PropTypes from "prop-types";
 
 const AccordionItems = ({ title, id }) => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -42,6 +43,11 @@ const AccordionItems = ({ title, id }) => {
       </AnimatePresence>
     </div>
   );
+};
+
+AccordionItems.propTypes = {
+  title: PropTypes.string,
+  id: PropTypes.number,
 };
 
 export default AccordionItems;
